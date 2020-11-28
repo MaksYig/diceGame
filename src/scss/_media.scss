@@ -1,0 +1,64 @@
+@media (max-width: 940px) {
+  .player {
+    padding: 20px 15px;
+  }
+}
+@media (max-width: 830px) {
+  .dice__img {
+    max-width: 125px;
+  }
+  .player__name-content {
+    flex-direction: column;
+    align-items: center;
+    input {
+      width: 100%;
+      margin-bottom: 7px;
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  .content__box-wrapper {
+    flex-direction: column;
+    padding-top: 7px;
+  }
+  .control__panel {
+    width: 100%;
+  }
+  .player {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .player__name {
+    margin-bottom: 10px;
+  }
+  .player__total-score-box {
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  .player .player__current-score-box {
+    padding: 10px;
+    margin-bottom: 0;
+  }
+  .control__panel-wrapper {
+    .dice__wrapper {
+      margin: 10px 0;
+    }
+    .control__panel-btn-wrapper{
+      .newGame__btn{
+        margin-right: 40px;
+      }
+    }
+  }
+}
+
+@media(max-width:450px){
+  .header__title{
+    font-size: 28px;
+  }
+  .header__text{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+  }
+}
